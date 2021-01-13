@@ -10,7 +10,7 @@ exports.run = async (client, message, args, prefix) => {
     ${prefix} say: Make the bot send a message on a certain channel \ n
     ${prefix} clear: Clear messages from a channel`)
     .setThumbnail(message.author.displayAvatarURL({dynamic: true}))
-    .setFooter(`Mitsuka-BOT Todos os Direitos Reservados ${message.guild.name}`, message.guild.iconURL({dynamic: true}))
+    .setFooter(`Staff Server ${message.guild.name}`, message.guild.iconURL({dynamic: true}))
     message.channel.send(embed)
 }
 module.exports.config = {
